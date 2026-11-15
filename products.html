@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#fff8ef">
+    <meta name="description" content="Discover traditional savouries, crispy chips and delicious biscuits at TS Snacks.">
+    <title>Our Snacks | TS Snacks</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <div class="announcement">
+        A LITTLE CRUNCH, A LOT OF HAPPINESS ✨
+    </div>
+
+    <header class="site-header">
+        <a class="brand" href="index.html">
+            <span class="brand-mark">TS</span>
+            <span>TS SNACKS<small>TRADITION IN EVERY BITE</small></span>
+        </a>
+
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="products.html">Our Snacks</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <a class="nav-cta" href="products.html">
+            Explore Snacks <span>↗</span>
+        </a>
+    </header>
+
+    <main>
+<section class="catalogue-intro">
+    <span class="eyebrow">THE GOOD STUFF STARTS HERE</span>
+    <h1>Find your kind of <em>crunch.</em></h1>
+    <p>Traditional favourites, crispy bites and sweet little treats.</p>
+</section>
+
+<section class="section catalogue-section">
+    <form class="catalogue-toolbar" id="catalogue-form" method="get">
+        <input type="search" name="q" value=""
+               placeholder="Search your favourite snacks..."
+               aria-label="Search products">
+
+        <select name="category" aria-label="Filter by category">
+            <option value="">All categories</option>
+                <option value="Bakery &amp; Biscuits">Bakery &amp; Biscuits</option>
+                <option value="Chips &amp; Snacks">Chips &amp; Snacks</option>
+                <option value="Mixture &amp; Savouries">Mixture &amp; Savouries</option>
+                <option value="Traditional Snacks">Traditional Snacks</option>
+        </select>
+
+        <button class="button button-primary" type="submit">Find snacks</button>
+    </form>
+
+    <div class="catalogue-count">
+        <span>Our snack collection</span>
+        <span id="catalogue-count">22 products</span>
+    </div>
+
+    <div class="product-grid" id="catalogue-grid">
+            <article class="product-card" data-name="ABCD Biscuit" data-category="Bakery &amp; Biscuits">
+                <div class="product-image-wrap">
+                    <img src="images/products/abcd-biscuit.jpg" alt="ABCD Biscuit">
+                </div>
+
+                <div class="product-info">
+                    <span class="product-category">Bakery &amp; Biscuits</span>
+                    <h3>ABCD Biscuit</h3>
+                    <p class="price">₹200.00<small> / kg</small></p>
+
+                    <div class="quantity-row">
+                        <label for="qty-19">Quantity (kg)</label>
+                        <input id="qty-19" type="number"
+                               min="0.25" max="100" step="0.25"
+                               value="1" inputmode="decimal">
+                    </div>
+
+                    <button class="button button-primary add-to-cart"
+                            type="button"
+                            data-id="19"
+                            data-name="ABCD Biscuit"
+                            data-price="200.00">
+                        Add to order +
+                    </button>
+                </div>
+            </article>
+
+            <article class="product-card" data-name="Heart Biscuit" data-category="Bakery &amp; Biscuits">
+                <div class="product-image-wrap">
+                    <img src="images/products/heart-biscuit.jpg" alt="Heart Biscuit">
+                </div>
+
+                <div class="product-info">
+                    <span class="product-category">Bakery &amp; Biscuits</span>
+                    <h3>Heart Biscuit</h3>
+                    <p class="price">₹200.00<small> / kg</small></p>
+
+                    <div class="quantity-row">
+                        <label for="qty-20">Quantity (kg)</label>
+                        <input id="qty-20" type="number"
+                               min="0.25" max="100" step="0.25"
+                               value="1" inputmode="decimal">
+                    </div>
+
+                    <button class="button button-primary add-to-cart"
+                            type="button"
+                            data-id="20"
+                            data-name="Heart Biscuit"
+                            data-price="200.00">
+                        Add to order +
+                    </button>
+                </div>
+            </article>
+
+            <article class="product-card" data-name="Mundhiri Biscuit" data-category="Bakery &amp; Biscuits">
+                <div class="product-image-wrap">
+                    <img src="images/products/mundhiri-biscuit.jpg" alt="Mundhiri Biscuit">
+                </div>
+
+                <div class="product-info">
+                    <span class="product-category">Bakery &amp; Biscuits</span>
+                    <h3>Mundhiri Biscuit</h3>
+                    <p class="price">₹200.00<small> / kg</small></p>
+
+                    <div class="quantity-row">
+                        <label for="qty-21">Quantity (kg)</label>
+                        <input id="qty-21" type="number"
+                               min="0.25" max="100" step="0.25"
+                               value="1" inputmode="decimal">
+                    </div>
+
+                    <button class="button button-primary add-to-cart"
+                            type="button"
+                            data-id="21"
+                            data-name="Mundhiri Biscuit"
+                            data-price="200.00">
+                        Add to order +
+                    </button>
+                </div>
+            </article>
+
+            <article class="product-card" data-name="Muttai Biscuit" data-category="Bakery &amp; Biscuits">
+                <div class="product-image-wrap">
+                    <img src="images/products/muttai-biscuit.jpg" alt="Muttai Biscuit">
+                </div>
+
+                <div class="product-info">
+                    <span class="product-category">Bakery &amp; Biscuits</span>
+                    <h3>Muttai Biscuit</h3>
+                    <p class="price">₹200.00<small> / kg</small></p>
+
+                    <div class="quantity-row">
+                        <label for="qty-22">Quantity (kg)</label>
+                        <input id="qty-22" type="number"
+                               min="0.25" max="100" step="0.25"
+                               value="1" inputmode="decimal">
+                    </div>
+
+                    <button class="button button-primary add-to-cart"
+                            type="button"
+                            data-id="22"
+                            data-name="Muttai Biscuit"
+                            data-price="200.00">
+                        Add to order +
+                    </button>
+                </div>
+            </article>
+
+            <article class="product-card" data-name="Ooty Varky (Normal)" data-category="Bakery &amp; Biscuits">
+                <div class="product-image-wrap">
+                    <img src="images/products/ooty-varky-normal.jpg" alt="Ooty Varky (Normal)">
+                </div>
+
+                <div class="product-info">
+                    <span class="product-category">Bakery &amp; Biscuits</span>
+                    <h3>Ooty Varky (Normal)</h3>
+                    <p class="price">₹180.00<small> / kg</small></p>
+
+                    <div class="quantity-row">
+                        <label for="qty-11">Quantity (kg)</label>
+                        <input id="qty-11" type="number"
+                               min="0.25" max="100" step="0.25"
+                               value="1" inputmode="decimal">
+                    </div>
+
+                    <button class="button button-primary add-to-cart"
+                            type="button"
+                            data-id="11"
+                            data-name="Ooty Varky (Normal)"
+                            data-price="180.00">
+                        Add to order +
+                    </button>
+                </div>
+            </article>
+
+            <article class="product-card" data-name="Ooty Varky (Special)" data-category="Bakery &amp; Biscuits">
+                <div class="product-image-wrap">
+                    <img src="images/products/ooty-varky-special.jpg" alt="Ooty Varky (Special)">
+                </div>
+
+                <div class="product-info">
+                    <span class="product-category">Bakery &amp; Biscuits</span>
+                    <h3>Ooty Varky (Special)</h3>
+                    <p class="price">₹200.00<small> / kg</small></p>
+
+                    <div class="quantity-row">
+                        <label for="qty-10">Quantity (kg)</label>
+                        <input id="qty-10" type="number"
+                               min="0.25" max="100" step="0.25"
+                               value="1" inputmode="decimal">
+                    </div>
+
+                    <button class="button button-primary add-to-cart"
+                            type="button"
+                            data-id="10"
+                            data-name="Ooty Varky (Special)"
+                            data-price="200.00">
+                        Add to order +
+                    </button>
+                </div>
+            </article>
+
+            <article class="product-card" data-name="Rusk" data-category="Bakery &amp; Biscuits">
+                <div class="product-image-wrap">
+                    <img src="images/products/rusk.jpg" alt="Rusk">
+                </div>
+
+                <div class="product-info">
+                    <span class="product-category">Bakery &amp; Biscuits</span>
+                    <h3>Rusk</h3>
+                    <p class="price">₹190.00<small> / kg</small></p>
+
+                    <div class="quantity-row">
+                        <label for="qty-9">Quantity (kg)</label>
+                        <input id="qty-9" type="number"
+                               min="0.25" max="100" step="0.25"
+                               value="1" inputmode="decimal">
+                    </div>
+
+                    <button class="button button-primary add-to-cart"
+                            type="button"
+                            data-id="9"
+                            data-name="Rusk"
+                            data-price="190.00">
+                        Add to order +
+                    </button>
+                </div>
+            </article>
+
+            <article class="product-card" data-name="Lays Chips" data-category="Chips &amp; Snacks">
+                <div class="product-image-wrap">
+                    <img src="images/products/potato-chips.jpg" alt="Lays Chips">
+                </div>
+
+                <div class="product-info">
+                    <span class="product-category">Chips &amp; Snacks</span>
+                    <h3>Lays Chips</h3>
+                    <p class="price">₹300.00<small> / kg</small></p>
+
+                    <div class="quantity-row">
+                        <label for="qty-18">Quantity (kg)</label>
+                        <input id="qty-18" type="number"
+                               min="0.25" max="100" step="0.25"
+                               value="1" inputmode="decimal">
+                    </div>
+
+                    <button class="button button-primary add-to-cart"
+                            type="button"
+                            data-id="18"
+                            data-name="Lays Chips"
+                            data-price="300.00">
+                        Add to order +
+                    </button>
+                </div>
+            </article>
+
+            <article class="product-card" data-name="Maravalli (Kucchi - Circle)" data-category="Chips &amp; Snacks">
+                <div class="product-image-wrap">
+                    <img src="images/products/maravalli.jpg" alt="Maravalli (Kucchi - Circle)">
+                </div>
+
+                <div class="product-info">
+                    <span class="product-category">Chips &amp; Snacks</span>
+                    <h3>Maravalli (Kucchi - Circle)</h3>
+                    <p class="price">₹250.00<small> / kg</small></p>
+
+                    <div class="quantity-row">
+                        <label for="qty-16">Quantity (kg)</label>
+                        <input id="qty-16" type="number"
+                               min="0.25" max="100" step="0.25"
+                               value="1" inputmode="decimal">
+                    </div>
+
+                    <button class="button button-primary add-to-cart"
+                            type="button"
+                            data-id="16"
+                            data-name="Maravalli (Kucchi - Circle)"
+                            data-price="250.00">
+                        Add to order +
+                    </button>
+                </div>
+            </article>
+
+            <article class="product-card" data-name="Masala Kallai" data-category="Chips &amp; Snacks">
+                <div class="product-image-wrap">
+                    <img src="images/products/masala-kallai.jpg" alt="Masala Kallai">
+                </div>
+
+                <div class="product-info">
+                    <span class="product-category">Chips &amp; Snacks</span>
+                    <h3>Masala Kallai</h3>
+                    <p class="price">₹250.00<small> / kg</small></p>
+
+                    <div class="quantity-row">
+                        <label for="qty-15">Quantity (kg)</label>
+                        <input id="qty-15" type="number"
+                               min="0.25" max="100" step="0.25"
+                               value="1" inputmode="decimal">
+                    </div>
+
+                    <button class="button button-primary add-to-cart"
+                            type="button"
+                            data-id="15"
+                            data-name="Masala Kallai"
+                            data-price="250.00">
+                        Add to order +
+                    </button>
+                </div>
+            </article>
+
+            <article class="product-card" data-name="Pacha Pattani" data-category="Chips &amp; Snacks">
+                <div class="product-image-wrap">
+                    <img src="images/products/pacha-pattani.jpg" alt="Pacha Pattani">
+                </div>
+
+                <div class="product-info">
+                    <span class="product-category">Chips &amp; Snacks</span>
+                    <h3>Pacha Pattani</h3>
+                    <p class="price">₹185.00<small> / kg</small></p>
+
+                    <div class="quantity-row">
+                        <label for="qty-13">Quantity (kg)</label>
+                        <input id="qty-13" type="number"
+                               min="0.25" max="100" step="0.25"
+                               value="1" inputmode="decimal">
+                    </div>
+
+                    <button class="button button-primary add-to-cart"
+                            type="button"
+                            data-id="13"
+                            data-name="Pacha Pattani"
+                            data-price="185.00">
+                        Add to order +
+                    </button>
+                </div>
+            </article>
+
+            <article class="product-card" data-name="Potato Chilli" data-category="Chips &amp; Snacks">
+                <div class="product-image-wrap">
+                    <img src="images/products/potato-chilli.jpg" alt="Potato Chilli">
+                </div>
+
+                <div class="product-info">
+                    <span class="product-category">Chips &amp; Snacks</span>
+                    <h3>Potato Chilli</h3>
+                    <p class="price">₹250.00<small> / kg</small></p>
+
+                    <div class="quantity-row">
+                        <label for="qty-17">Quantity (kg)</label>
+                        <input id="qty-17" type="number"
+                               min="0.25" max="100" step="0.25"
+                               value="1" inputmode="decimal">
+                    </div>
+
+                    <button class="button button-primary add-to-cart"
+                            type="button"
+                            data-id="17"
+                            data-name="Potato Chilli"
+                            data-price="250.00">
+                        Add to order +
+                    </button>
+                </div>
+            </article>
+
+            <article class="product-card" data-name="Tomato Chips" data-category="Chips &amp; Snacks">
+                <div class="product-image-wrap">
+                    <img src="images/products/tomato-chips.jpg" alt="Tomato Chips">
+                </div>
+
+                <div class="product-info">
+                    <span class="product-category">Chips &amp; Snacks</span>
+                    <h3>Tomato Chips</h3>
+                    <p class="price">₹190.00<small> / kg</small></p>
+
+                    <div class="quantity-row">
+                        <label for="qty-12">Quantity (kg)</label>
+                        <input id="qty-12" type="number"
+                               min="0.25" max="100" step="0.25"
+                               value="1" inputmode="decimal">
+                    </div>
+
+                    <button class="button button-primary add-to-cart"
+                            type="button"
+                            data-id="12"
+                            data-name="Tomato Chips"
+                            data-price="190.00">
+                        Add to order +
+                    </button>
+                </div>
+            </article>
+
+            <article class="product-card" data-name="Uppu Kallai" data-category="Chips &amp; Snacks">
+                <div class="product-image-wrap">
+                    <img src="images/products/uppu-kallai.jpg" alt="Uppu Kallai">
+                </div>
+
+                <div class="product-info">
+                    <span class="product-category">Chips &amp; Snacks</span>
+                    <h3>Uppu Kallai</h3>
+                    <p class="price">₹200.00<small> / kg</small></p>
+
+                    <div class="quantity-row">
+                        <label for="qty-14">Quantity (kg)</label>
+                        <input id="qty-14" type="number"
+                               min="0.25" max="100" step="0.25"
+                               value="1" inputmode="decimal">
+                    </div>
+
+                    <button class="button button-primary add-to-cart"
+                            type="button"
+                            data-id="14"
+                            data-name="Uppu Kallai"
+                            data-price="200.00">
+                        Add to order +
+                    </button>
+                </div>
+            </article>
+
+            <article class="product-card" data-name="AVL Mixture" data-category="Mixture &amp; Savouries">
+                <div class="product-image-wrap">
+                    <img src="images/products/avl-mixture.png" alt="AVL Mixture">
+                </div>
+
+                <div class="product-info">
+                    <span class="product-category">Mixture &amp; Savouries</span>
+                    <h3>AVL Mixture</h3>
+                    <p class="price">₹170.00<small> / kg</small></p>
+
+                    <div class="quantity-row">
+                        <label for="qty-2">Quantity (kg)</label>
+                        <input id="qty-2" type="number"
+                               min="0.25" max="100" step="0.25"
+                               value="1" inputmode="decimal">
+                    </div>
+
+                    <button class="button button-primary add-to-cart"
+                            type="button"
+                            data-id="2"
+                            data-name="AVL Mixture"
+                            data-price="170.00">
+                        Add to order +
+                    </button>
+                </div>
+            </article>
+
+            <article class="product-card" data-name="Bambe Mixture" data-category="Mixture &amp; Savouries">
+                <div class="product-image-wrap">
+                    <img src="images/products/bambe-mixture.jpg" alt="Bambe Mixture">
+                </div>
+
+                <div class="product-info">
+                    <span class="product-category">Mixture &amp; Savouries</span>
+                    <h3>Bambe Mixture</h3>
+                    <p class="price">₹170.00<small> / kg</small></p>
+
+                    <div class="quantity-row">
+                        <label for="qty-1">Quantity (kg)</label>
+                        <input id="qty-1" type="number"
+                               min="0.25" max="100" step="0.25"
+                               value="1" inputmode="decimal">
+                    </div>
+
+                    <button class="button button-primary add-to-cart"
+                            type="button"
+                            data-id="1"
+                            data-name="Bambe Mixture"
+                            data-price="170.00">
+                        Add to order +
+                    </button>
+                </div>
+            </article>
+
+            <article class="product-card" data-name="Kara Boondhi" data-category="Mixture &amp; Savouries">
+                <div class="product-image-wrap">
+                    <img src="images/products/kara-boondhi.jpg" alt="Kara Boondhi">
+                </div>
+
+                <div class="product-info">
+                    <span class="product-category">Mixture &amp; Savouries</span>
+                    <h3>Kara Boondhi</h3>
+                    <p class="price">₹170.00<small> / kg</small></p>
+
+                    <div class="quantity-row">
+                        <label for="qty-4">Quantity (kg)</label>
+                        <input id="qty-4" type="number"
+                               min="0.25" max="100" step="0.25"
+                               value="1" inputmode="decimal">
+                    </div>
+
+                    <button class="button button-primary add-to-cart"
+                            type="button"
+                            data-id="4"
+                            data-name="Kara Boondhi"
+                            data-price="170.00">
+                        Add to order +
+                    </button>
+                </div>
+            </article>
+
+            <article class="product-card" data-name="Poondu Mixture" data-category="Mixture &amp; Savouries">
+                <div class="product-image-wrap">
+                    <img src="images/products/poondu-mixture.jpg" alt="Poondu Mixture">
+                </div>
+
+                <div class="product-info">
+                    <span class="product-category">Mixture &amp; Savouries</span>
+                    <h3>Poondu Mixture</h3>
+                    <p class="price">₹170.00<small> / kg</small></p>
+
+                    <div class="quantity-row">
+                        <label for="qty-3">Quantity (kg)</label>
+                        <input id="qty-3" type="number"
+                               min="0.25" max="100" step="0.25"
+                               value="1" inputmode="decimal">
+                    </div>
+
+                    <button class="button button-primary add-to-cart"
+                            type="button"
+                            data-id="3"
+                            data-name="Poondu Mixture"
+                            data-price="170.00">
+                        Add to order +
+                    </button>
+                </div>
+            </article>
+
+            <article class="product-card" data-name="Kerala Vada" data-category="Traditional Snacks">
+                <div class="product-image-wrap">
+                    <img src="images/products/kerala-avare.jpg" alt="Kerala Vada">
+                </div>
+
+                <div class="product-info">
+                    <span class="product-category">Traditional Snacks</span>
+                    <h3>Kerala Vada</h3>
+                    <p class="price">₹180.00<small> / kg</small></p>
+
+                    <div class="quantity-row">
+                        <label for="qty-5">Quantity (kg)</label>
+                        <input id="qty-5" type="number"
+                               min="0.25" max="100" step="0.25"
+                               value="1" inputmode="decimal">
+                    </div>
+
+                    <button class="button button-primary add-to-cart"
+                            type="button"
+                            data-id="5"
+                            data-name="Kerala Vada"
+                            data-price="180.00">
+                        Add to order +
+                    </button>
+                </div>
+            </article>
+
+            <article class="product-card" data-name="Ring Muruku" data-category="Traditional Snacks">
+                <div class="product-image-wrap">
+                    <img src="images/products/ring-muruku.jpg" alt="Ring Muruku">
+                </div>
+
+                <div class="product-info">
+                    <span class="product-category">Traditional Snacks</span>
+                    <h3>Ring Muruku</h3>
+                    <p class="price">₹170.00<small> / kg</small></p>
+
+                    <div class="quantity-row">
+                        <label for="qty-6">Quantity (kg)</label>
+                        <input id="qty-6" type="number"
+                               min="0.25" max="100" step="0.25"
+                               value="1" inputmode="decimal">
+                    </div>
+
+                    <button class="button button-primary add-to-cart"
+                            type="button"
+                            data-id="6"
+                            data-name="Ring Muruku"
+                            data-price="170.00">
+                        Add to order +
+                    </button>
+                </div>
+            </article>
+
+            <article class="product-card" data-name="Seval" data-category="Traditional Snacks">
+                <div class="product-image-wrap">
+                    <img src="images/products/seval.jpg" alt="Seval">
+                </div>
+
+                <div class="product-info">
+                    <span class="product-category">Traditional Snacks</span>
+                    <h3>Seval</h3>
+                    <p class="price">₹180.00<small> / kg</small></p>
+
+                    <div class="quantity-row">
+                        <label for="qty-8">Quantity (kg)</label>
+                        <input id="qty-8" type="number"
+                               min="0.25" max="100" step="0.25"
+                               value="1" inputmode="decimal">
+                    </div>
+
+                    <button class="button button-primary add-to-cart"
+                            type="button"
+                            data-id="8"
+                            data-name="Seval"
+                            data-price="180.00">
+                        Add to order +
+                    </button>
+                </div>
+            </article>
+
+            <article class="product-card" data-name="Sevu" data-category="Traditional Snacks">
+                <div class="product-image-wrap">
+                    <img src="images/products/sevu.jpg" alt="Sevu">
+                </div>
+
+                <div class="product-info">
+                    <span class="product-category">Traditional Snacks</span>
+                    <h3>Sevu</h3>
+                    <p class="price">₹180.00<small> / kg</small></p>
+
+                    <div class="quantity-row">
+                        <label for="qty-7">Quantity (kg)</label>
+                        <input id="qty-7" type="number"
+                               min="0.25" max="100" step="0.25"
+                               value="1" inputmode="decimal">
+                    </div>
+
+                    <button class="button button-primary add-to-cart"
+                            type="button"
+                            data-id="7"
+                            data-name="Sevu"
+                            data-price="180.00">
+                        Add to order +
+                    </button>
+                </div>
+            </article>
+
+        <div class="empty-state" id="catalogue-empty" hidden>
+            <h2>No snacks found</h2>
+            <p>Try another search or select a different category.</p>
+            <a class="text-link" href="products.html">
+                View all products →
+            </a>
+        </div>
+    </div>
+</section>
+
+<aside class="cart-panel" id="cart-panel">
+    <div class="cart-heading">
+        <div>
+            <span class="eyebrow">YOUR SELECTION</span>
+            <h2>Your snack order</h2>
+        </div>
+        <button type="button" id="clear-cart" class="clear-button">
+            Clear
+        </button>
+    </div>
+
+    <p id="cart-empty">Your order is empty. Add a few favourites!</p>
+    <div id="cart-items"></div>
+
+    <div class="cart-total">
+        <span>Estimated total</span>
+        <strong id="cart-total">₹0.00</strong>
+    </div>
+    <p class="cart-disclaimer">
+        Prices are per kilogram. Final availability and order details
+        will be confirmed by TS Snacks.
+    </p>
+
+    <button type="button" id="whatsapp-order"
+            class="button button-whatsapp">
+        <span>↗</span> Order through WhatsApp
+    </button>
+</aside>
+    </main>
+
+    <footer class="site-footer">
+        <a class="brand footer-brand" href="index.html">
+            <span class="brand-mark">TS</span>
+            <span>TS SNACKS<small>TRADITION IN EVERY BITE</small></span>
+        </a>
+        <p>Made for your snack cravings.</p>
+        <p>© <span id="current-year">2026</span> TS Snacks. All rights reserved.</p>
+        <a href="https://www.instagram.com/ts_snacks_official/"
+           target="_blank" rel="noopener noreferrer">
+            Follow us on Instagram ↗
+        </a>
+    </footer>
+</body>
+</html>
